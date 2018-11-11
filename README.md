@@ -1,4 +1,4 @@
-# holidaychill
+# Holiday Chill Landing Page
 
 # install dependencies
 npm install

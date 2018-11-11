@@ -1,0 +1,914 @@
+@font-face {
+  font-family: "ProximaNova-Regular";
+  src: url("../fonts/ProximaNova/ProximaNova-Regular.eot");
+  src: url("../fonts/ProximaNova/ProximaNova-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova/ProximaNova-Regular.woff2") format("woff2"), url("../fonts/ProximaNova/ProximaNova-Regular.woff") format("woff"), url("../fonts/ProximaNova/ProximaNova-Regular.ttf") format("truetype"), url("../fonts/ProximaNova/ProximaNova-Regular.svg#ProximaNova-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal; }
+
+@font-face {
+  font-family: "ProximaNova-Bold";
+  src: url("../fonts/ProximaNova/ProximaNova-Bold.eot");
+  src: url("../fonts/ProximaNova/ProximaNova-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova/ProximaNova-Bold.woff2") format("woff2"), url("../fonts/ProximaNova/ProximaNova-Bold.woff") format("woff"), url("../fonts/ProximaNova/ProximaNova-Bold.ttf") format("truetype"), url("../fonts/ProximaNova/ProximaNova-Bold.svg#ProximaNova-Bold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal; }
+
+@font-face {
+  font-family: "ProximaNova-Semibold";
+  src: url("../fonts/ProximaNova/ProximaNova-Semibold.eot");
+  src: url("../fonts/ProximaNova/ProximaNova-Semibold.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova/ProximaNova-Semibold.woff2") format("woff2"), url("../fonts/ProximaNova/ProximaNova-Semibold.woff") format("woff"), url("../fonts/ProximaNova/ProximaNova-Semibold.ttf") format("truetype"), url("../fonts/ProximaNova/ProximaNova-Semibold.svg#ProximaNova-Semibold") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal; }
+
+@font-face {
+  font-family: "ProximaNova-SemiboldIt";
+  src: url("../fonts/ProximaNova/ProximaNova-SemiboldIt.eot");
+  src: url("../fonts/ProximaNova/ProximaNova-SemiboldIt.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova/ProximaNova-SemiboldIt.woff2") format("woff2"), url("../fonts/ProximaNova/ProximaNova-SemiboldIt.woff") format("woff"), url("../fonts/ProximaNova/ProximaNova-SemiboldIt.ttf") format("truetype"), url("../fonts/ProximaNova/ProximaNova-SemiboldIt.svg#ProximaNova-SemiboldIt") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal; }
+
+@font-face {
+  font-family: 'proxima_novablack';
+  src: url("../fonts/ProximaNova/proximanova-black-webfont.eot");
+  src: url("../fonts/ProximaNova/proximanova-black-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova/proximanova-black-webfont.woff2") format("woff2"), url("../fonts/ProximaNova/proximanova-black-webfont.woff") format("woff"), url("../fonts/ProximaNova/proximanova-black-webfont.ttf") format("truetype"), url("../fonts/ProximaNova/proximanova-black-webfont.svg#proxima_novablack") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+html {
+  overflow-x: hidden; }
+
+/* HEADER */
+header .jack {
+  position: relative; }
+  header .jack .jack2 {
+    position: absolute;
+    background: url("../images/jack.png") center 100% no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    animation-duration: 3s;
+    animation-name: floating;
+    animation-iteration-count: infinite;
+    z-index: 1000; }
+
+@keyframes floating {
+  0% {
+    transform: translateY(0px); }
+  50% {
+    transform: translateY(20px); }
+  100% {
+    transform: translateY(0); } }
+
+@-webkit-keyframes floating {
+  0% {
+    transform: translateY(0px); }
+  50% {
+    transform: translateY(20px); }
+  100% {
+    transform: translateY(0px); } }
+  header .jack .snow {
+    background: url("../images/snow_desktop.gif") center center repeat;
+    height: 100vh;
+    background-size: 2000px 877px; }
+  header .jack .heroText {
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate3d(-50%, -50%, 0); }
+    header .jack .heroText img {
+      max-height: 40vh; }
+
+#page2 {
+  background-color: transparent;
+  margin-bottom: 0px;
+  margin-top: 50px; }
+  #page2 .page2_header {
+    text-transform: uppercase;
+    width: 100%;
+    margin-left: 10px; }
+    #page2 .page2_header .background-text div {
+      font-family: "Knockout 48 A", "Knockout 48 B";
+      font-size: 111px;
+      color: #2b8558;
+      font-style: normal;
+      font-weight: 100;
+      display: table;
+      line-height: .6;
+      margin: 4px 0;
+      padding: 0 4px 4px;
+      white-space: nowrap;
+      margin: 0; }
+  #page2 .page2_text {
+    padding-top: 20px;
+    line-height: 30px; }
+    #page2 .page2_text p {
+      font-family: "ProximaNova-Regular", "proxima-nova", "arial", "Helvetica";
+      font-size: 20px;
+      color: #4c4c4c;
+      font-style: normal;
+      font-weight: 100; }
+  #page2 .hc_icon {
+    top: -300px;
+    text-align: center;
+    margin-bottom: -150px; }
+  #page2 .video_ctner {
+    margin-bottom: 150px; }
+
+#page3 {
+  padding: 100px 0px 100px 0;
+  /* image poster clicked, player class added using js */ }
+  #page3 .content .quote_ctner {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    padding: 0px;
+    margin-top: 0px; }
+    #page3 .content .quote_ctner .copy1 {
+      width: 100%; }
+      #page3 .content .quote_ctner .copy1 h1 {
+        font-family: "ProximaNova-Bold", "proxima-nova", "Helvetica Neue";
+        font-size: 60px;
+        color: white;
+        font-style: normal;
+        font-weight: 100;
+        display: inline;
+        background: transparent;
+        padding: 0px; }
+      #page3 .content .quote_ctner .copy1 h2 {
+        font-family: "ProximaNova-SemiboldIt", "proxima-nova", "Helvetica Neue";
+        font-size: 20px;
+        color: white;
+        font-style: normal;
+        font-weight: 100;
+        display: inline;
+        background: transparent;
+        padding: 0px; }
+  #page3 #play_vid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0; }
+  #page3 .playBtn {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    background: url("../images/playBtn_white.png") no-repeat 0 0;
+    width: 74px;
+    height: 74px;
+    cursor: pointer; }
+    #page3 .playBtn:hover {
+      background: url("../images/playBtn_red.png") no-repeat 0 0; }
+  #page3 .video {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    height: 0; }
+  #page3 .video img {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 20;
+    cursor: pointer; }
+  #page3 .video:after {
+    content: "";
+    position: absolute;
+    display: block;
+    background: url("../images/arrow.png") no-repeat 0 0;
+    top: 45%;
+    left: 45%;
+    width: 46px;
+    height: 36px;
+    z-index: 30;
+    cursor: pointer; }
+  #page3 .video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  #page3 .video.player img {
+    display: none; }
+  #page3 .video.player:after {
+    display: none; }
+
+#page4 {
+  margin-top: 100px; }
+  #page4 .content {
+    width: 520px; }
+    #page4 .content .hc_icon {
+      display: flex;
+      justify-content: center;
+      padding-bottom: 20px; }
+    #page4 .content .page2_header {
+      text-transform: uppercase;
+      width: 100%;
+      margin-left: 10px;
+      padding-bottom: 20px; }
+      #page4 .content .page2_header .background-text div {
+        font-family: "Knockout 48 A", "Knockout 48 B";
+        font-size: 111px;
+        color: #44abe0;
+        font-style: normal;
+        font-weight: 100;
+        display: table;
+        line-height: .6;
+        margin: 4px 0;
+        padding: 0 4px 4px;
+        white-space: nowrap;
+        margin: 0; }
+    #page4 .content .body_text {
+      font-family: "ProximaNova-Regular", "proxima-nova", "arial", "Helvetica";
+      font-size: 17px;
+      color: #4c4c4c;
+      font-style: normal;
+      font-weight: 100; }
+
+#page5 {
+  margin-top: 80px;
+  padding-top: 80px;
+  padding-bottom: 80px; }
+  #page5 .content {
+    padding-left: 30px;
+    background-color: #88d3fd;
+    width: 520px; }
+    #page5 .content .hc_icon {
+      display: flex;
+      justify-content: center;
+      padding-bottom: 20px; }
+    #page5 .content .page2_header {
+      text-transform: uppercase;
+      width: 100%;
+      margin-left: 10px;
+      padding-bottom: 20px; }
+      #page5 .content .page2_header .background-text div {
+        font-family: "Knockout 48 A", "Knockout 48 B";
+        font-size: 111px;
+        color: #fff;
+        font-style: normal;
+        font-weight: 100;
+        display: table;
+        line-height: .6;
+        margin: 4px 0;
+        padding: 0 4px 4px;
+        white-space: nowrap;
+        margin: 0; }
+    #page5 .content .body_text {
+      font-family: "ProximaNova-Regular", "proxima-nova", "arial", "Helvetica";
+      font-size: 20px;
+      color: #fff;
+      font-style: normal;
+      font-weight: 100; }
+      #page5 .content .body_text a {
+        text-decoration: underline; }
+        #page5 .content .body_text a:link {
+          color: #fff; }
+        #page5 .content .body_text a:visited {
+          color: #fff; }
+        #page5 .content .body_text a:hover {
+          color: #44abe0; }
+        #page5 .content .body_text a:active {
+          color: #44abe0; }
+      #page5 .content .body_text h3 {
+        font-family: "proxima_novablack", "Arial Black", "arial bold", "Helvetica";
+        font-size: 20px;
+        color: #fff;
+        font-style: normal;
+        font-weight: 800;
+        letter-spacing: 2px;
+        font-weight: normal;
+        text-transform: uppercase; }
+      #page5 .content .body_text li {
+        line-height: 40px;
+        margin-left: -40px; }
+
+#page6 {
+  padding-top: 40px;
+  padding-bottom: 60px; }
+  #page6 .content {
+    width: 521px; }
+    #page6 .content .hc_icon {
+      display: flex;
+      justify-content: center;
+      padding-top: 60px;
+      padding-bottom: 20px; }
+    #page6 .content .page2_header {
+      text-transform: uppercase;
+      width: 100%;
+      margin-left: 10px;
+      padding-bottom: 20px; }
+      #page6 .content .page2_header .background-text div {
+        font-family: "Knockout 48 A", "Knockout 48 B";
+        font-size: 111px;
+        color: #44abe0;
+        font-style: normal;
+        font-weight: 100;
+        display: table;
+        line-height: .6;
+        margin: 4px 0;
+        padding: 0 4px 4px;
+        white-space: nowrap;
+        margin: 0; }
+    #page6 .content .body_text {
+      font-family: "ProximaNova-Regular", "proxima-nova", "arial", "Helvetica";
+      font-size: 17px;
+      color: #4d4d4f;
+      font-style: normal;
+      font-weight: 100; }
+      #page6 .content .body_text h3 {
+        font-family: "proxima_novablack", "Arial Black", "arial bold", "Helvetica";
+        font-size: 17px;
+        color: #48484a;
+        font-style: normal;
+        font-weight: 800;
+        font-weight: bold;
+        text-transform: uppercase; }
+      #page6 .content .body_text li {
+        line-height: 40px;
+        margin-left: -40px; }
+      #page6 .content .body_text .semibold {
+        font-family: 'ProximaNova-Semibold';
+        font-weight: 800; }
+
+#page7 {
+  height: 600px;
+  padding-top: 50px; }
+  #page7 .content {
+    width: 510px; }
+    #page7 .content .page2_header {
+      text-transform: uppercase;
+      width: 100%;
+      margin-left: 10px;
+      padding-bottom: 20px; }
+      #page7 .content .page2_header .background-text div {
+        font-family: "Knockout 48 A", "Knockout 48 B";
+        font-size: 111px;
+        color: #fff;
+        font-style: normal;
+        font-weight: 100;
+        display: table;
+        line-height: .6;
+        margin: 4px 0;
+        padding: 0 4px 4px;
+        white-space: nowrap;
+        margin: 0; }
+    #page7 .content .body_text {
+      font-family: "ProximaNova-Regular", "proxima-nova", "arial", "Helvetica";
+      font-size: 23px;
+      color: #4d4d4f;
+      font-style: normal;
+      font-weight: 100; }
+      #page7 .content .body_text p {
+        line-height: 20px; }
+      #page7 .content .body_text .address {
+        text-decoration: underline; }
+
+/* VIDEO */
+.video_title1_ctnr {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: 300px;
+  background: white; }
+  .video_title1_ctnr .video_title1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    width: 100%;
+    text-transform: uppercase; }
+    .video_title1_ctnr .video_title1 h1 {
+      display: inline;
+      background: #fc4513;
+      padding: 0px 10px 0px 10px;
+      font-family: "Knockout 48 A", "Knockout 48 B";
+      font-size: 8vw;
+      color: white;
+      font-style: normal;
+      font-weight: 100;
+      font-weight: 700;
+      padding: 0 10%; }
+
+.video {
+  position: relative; }
+  .video .videoFile {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  .video .playBtn1, .video .playBtn2, .video .playBtn3 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    background: url("../images/sprites/spritesheet/playBtn_white.png") no-repeat 0 0;
+    width: 74px;
+    height: 74px;
+    cursor: pointer; }
+  .video .playBtn1:hover, .video .playBtn2:hover, .video .playBtn3:hover {
+    background: url("../images/sprites/spritesheet/playBtn_red.png") no-repeat 0 0; }
+
+/* MEDIA QUERIES */
+@media only screen and (min-width: 1px) and (max-width: 767px) {
+  header .jack {
+    background: url("../images/page1_bg_mobile.jpg");
+    background-position: center 90%;
+    background-size: cover;
+    background-attachment: scroll;
+    position: relative; }
+    header .jack .jack2 {
+      position: absolute;
+      background: url("../images/jack.png") center 100% no-repeat;
+      background-size: cover;
+      width: 100%;
+      animation-duration: 3s;
+      animation-name: floating;
+      animation-iteration-count: infinite; }
+    header .jack .snow {
+      background: url("../images/snow_mobile.gif") center center no-repeat;
+      height: 100vh;
+      background-size: cover; }
+    header .jack .heroText {
+      position: absolute;
+      left: 50%;
+      top: 25%;
+      transform: translate3d(-50%, -50%, 0); }
+      header .jack .heroText img {
+        max-width: 80vw; }
+  #page2 .page2_header {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 90%; }
+    #page2 .page2_header .background-text div {
+      font-family: "Knockout 48 A", "Knockout 48 B";
+      font-size: 17vw;
+      color: #2b8558;
+      font-style: normal;
+      font-weight: 100;
+      line-height: 9vw; }
+  #page2 .page2_text {
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 20px;
+    line-height: 30px; }
+    #page2 .page2_text p {
+      font-family: "ProximaNova-Regular", "proxima-nova", "arial", "Helvetica";
+      font-size: 22px;
+      color: #4c4c4c;
+      font-style: normal;
+      font-weight: 100; }
+  #page2 .hc_icon {
+    padding-top: 50px;
+    top: 0px;
+    text-align: center; }
+    #page2 .hc_icon img {
+      width: 80%;
+      max-width: 383px; }
+  #page2 .video_ctner {
+    margin-top: 200px;
+    margin-bottom: 80px; }
+  #page3 {
+    padding: 10vw 0px 80px 0;
+    height: 45vw; }
+    #page3 .content .quote_ctner {
+      width: 100%;
+      height: 0;
+      margin-top: 0; }
+      #page3 .content .quote_ctner .copy1 h1 {
+        font-family: "ProximaNova-Bold", "proxima-nova", "Helvetica Neue";
+        font-size: 6vw;
+        color: white;
+        font-style: normal;
+        font-weight: 100; }
+      #page3 .content .quote_ctner .copy1 h2 {
+        font-family: "ProximaNova-SemiboldIt", "proxima-nova", "Helvetica Neue";
+        font-size: 15px;
+        color: white;
+        font-style: normal;
+        font-weight: 100; }
+  #page4 {
+    margin-top: 50px; }
+    #page4 .content {
+      width: 90%; }
+      #page4 .content .page2_header .background-text div {
+        font-family: "Knockout 48 A", "Knockout 48 B";
+        font-size: 17vw;
+        color: #44abe0;
+        font-style: normal;
+        font-weight: 100;
+        line-height: 9vw; }
+  #page5 {
+    padding-top: 50px; }
+    #page5 .content {
+      width: 90%; }
+      #page5 .content .page2_header .background-text div {
+        font-family: "Knockout 48 A", "Knockout 48 B";
+        font-size: 17vw;
+        color: #fff;
+        font-style: normal;
+        font-weight: 100;
+        line-height: 9vw; }
+      #page5 .content .body_text {
+        font-family: "ProximaNova-Regular", "proxima-nova", "arial", "Helvetica";
+        font-size: 20px;
+        color: #fff;
+        font-style: normal;
+        font-weight: 100; }
+        #page5 .content .body_text h3 {
+          font-family: "ProximaNova-Bold", "proxima-nova", "arial", "Helvetica";
+          font-size: 20px;
+          color: #fff;
+          font-style: normal;
+          font-weight: 800;
+          font-weight: bold;
+          text-transform: uppercase; }
+        #page5 .content .body_text li {
+          line-height: 40px;
+          margin-left: -40px; }
+  #page6 {
+    padding-top: 0px; }
+    #page6 .content {
+      width: 90%; }
+      #page6 .content .page2_header {
+        margin-left: 10px;
+        padding-bottom: 20px; }
+        #page6 .content .page2_header .background-text div {
+          font-family: "Knockout 48 A", "Knockout 48 B";
+          font-size: 17vw;
+          color: #44abe0;
+          font-style: normal;
+          font-weight: 100;
+          line-height: 9vw; }
+      #page6 .content .body_text {
+        font-family: "ProximaNova-Regular", "proxima-nova", "arial", "Helvetica";
+        font-size: 18px;
+        color: #4d4d4f;
+        font-style: normal;
+        font-weight: 100; }
+        #page6 .content .body_text h3 {
+          font-family: "ProximaNova-Bold", "proxima-nova", "arial", "Helvetica";
+          font-size: 18px;
+          color: #48484a;
+          font-style: normal;
+          font-weight: 800;
+          font-weight: bold; }
+  #page7 {
+    height: 500px;
+    padding-top: 50px; }
+    #page7 .content {
+      width: 90%; }
+      #page7 .content .page2_header {
+        text-transform: uppercase;
+        width: 100%;
+        margin-left: 10px;
+        padding-bottom: 20px; }
+        #page7 .content .page2_header .background-text div {
+          font-family: "Knockout 48 A", "Knockout 48 B";
+          font-size: 17vw;
+          color: #fff;
+          font-style: normal;
+          font-weight: 100;
+          line-height: 9vw; }
+      #page7 .content .body_text {
+        font-family: "ProximaNova-Regular", "proxima-nova", "arial", "Helvetica";
+        font-size: 18px;
+        color: #4d4d4f;
+        font-style: normal;
+        font-weight: 100; }
+        #page7 .content .body_text p {
+          line-height: 20px; }
+        #page7 .content .body_text .address {
+          text-decoration: underline; } }
+
+@media only screen and (min-width: 1px) and (max-width: 468px) {
+  header .jack {
+    background: url("../images/page1_bg_mobile.jpg");
+    background-position: center 90%;
+    background-size: cover;
+    background-attachment: scroll;
+    position: relative; }
+    header .jack .jack2 {
+      position: absolute;
+      background: url("../images/jack.png") 50% 15vh no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 80vh;
+      animation-duration: 3s;
+      animation-name: floating;
+      animation-iteration-count: infinite; }
+    header .jack .snow {
+      background: url("../images/snow_mobile.gif") center center no-repeat;
+      height: 100vh;
+      background-size: cover; }
+    header .jack .heroText {
+      position: absolute;
+      left: 50%;
+      top: 20%;
+      transform: translate3d(-50%, -50%, 0); }
+      header .jack .heroText img {
+        max-width: 90vw; }
+  #page2 {
+    margin-bottom: 0px;
+    margin-top: 50px; }
+    #page2 .page2_header {
+      margin-left: 20px;
+      margin-right: 20px;
+      width: 90%; }
+      #page2 .page2_header .background-text div {
+        font-family: "Knockout 48 A", "Knockout 48 B";
+        font-size: 17vw;
+        color: #2b8558;
+        font-style: normal;
+        font-weight: 100;
+        line-height: 9vw; }
+    #page2 .page2_text {
+      margin-left: 12px;
+      margin-right: 12px;
+      padding-top: 20px;
+      line-height: 30px; }
+      #page2 .page2_text p {
+        font-family: "ProximaNova-Regular", "proxima-nova", "arial", "Helvetica";
+        font-size: 22px;
+        color: #4c4c4c;
+        font-style: normal;
+        font-weight: 100; }
+    #page2 .hc_icon {
+      padding-top: 30px;
+      top: 0px;
+      text-align: center; }
+      #page2 .hc_icon img {
+        width: 80%;
+        max-width: 383px; }
+    #page2 .video_ctner {
+      margin-top: 170px;
+      margin-bottom: 50px; }
+  #page3 {
+    padding: 8vw 0px 50px 0;
+    height: 46vw; }
+    #page3 .content .quote_ctner {
+      width: 100%;
+      height: 0;
+      margin-top: 0px; }
+      #page3 .content .quote_ctner .copy1 h1 {
+        font-family: "ProximaNova-Bold", "proxima-nova", "Helvetica Neue";
+        font-size: 6vw;
+        color: white;
+        font-style: normal;
+        font-weight: 100; }
+      #page3 .content .quote_ctner .copy1 h2 {
+        font-family: "ProximaNova-SemiboldIt", "proxima-nova", "Helvetica Neue";
+        font-size: 3.5vw;
+        color: white;
+        font-style: normal;
+        font-weight: 100; }
+  #page4 {
+    margin-top: 50px; }
+    #page4 .content {
+      width: 90%; }
+      #page4 .content .hc_icon img {
+        width: 90%;
+        height: 90%; }
+      #page4 .content .page2_header .background-text div {
+        font-family: "Knockout 48 A", "Knockout 48 B";
+        font-size: 17vw;
+        color: #44abe0;
+        font-style: normal;
+        font-weight: 100;
+        line-height: 8vw; }
+  #page5 {
+    padding-top: 50px; }
+    #page5 .content {
+      width: 90%; }
+      #page5 .content .hc_icon img {
+        max-width: 227px;
+        width: 90%;
+        height: 90%; }
+      #page5 .content .page2_header .background-text div {
+        font-family: "Knockout 48 A", "Knockout 48 B";
+        font-size: 17vw;
+        color: #fff;
+        font-style: normal;
+        font-weight: 100;
+        line-height: 8vw; }
+      #page5 .content .body_text {
+        font-family: "ProximaNova-Regular", "proxima-nova", "arial", "Helvetica";
+        font-size: 20px;
+        color: #fff;
+        font-style: normal;
+        font-weight: 100; }
+        #page5 .content .body_text h3 {
+          font-family: "ProximaNova-Bold", "proxima-nova", "arial", "Helvetica";
+          font-size: 20px;
+          color: #fff;
+          font-style: normal;
+          font-weight: 800;
+          font-weight: bold;
+          text-transform: uppercase; }
+        #page5 .content .body_text li {
+          line-height: 40px;
+          margin-left: -40px; }
+  #page6 {
+    padding-top: 0px; }
+    #page6 .content {
+      width: 90%; }
+      #page6 .content .hc_icon img {
+        max-width: 98px;
+        width: 90%;
+        height: 90%; }
+      #page6 .content .page2_header {
+        margin-left: 10px;
+        padding-bottom: 20px; }
+        #page6 .content .page2_header .background-text div {
+          font-family: "Knockout 48 A", "Knockout 48 B";
+          font-size: 17vw;
+          color: #44abe0;
+          font-style: normal;
+          font-weight: 100;
+          line-height: 8vw; }
+      #page6 .content .body_text {
+        font-family: "ProximaNova-Regular", "proxima-nova", "arial", "Helvetica";
+        font-size: 18px;
+        color: #4d4d4f;
+        font-style: normal;
+        font-weight: 100; }
+        #page6 .content .body_text h3 {
+          font-family: "ProximaNova-Bold", "proxima-nova", "arial", "Helvetica";
+          font-size: 18px;
+          color: #48484a;
+          font-style: normal;
+          font-weight: 800;
+          font-weight: bold; }
+  #page7 {
+    height: 500px;
+    padding-top: 50px; }
+    #page7 .content {
+      width: 90%; }
+      #page7 .content .hc_icon img {
+        max-width: 107px;
+        width: 90%;
+        height: 90%; }
+      #page7 .content .page2_header {
+        text-transform: uppercase;
+        width: 100%;
+        margin-left: 10px;
+        padding-bottom: 20px; }
+        #page7 .content .page2_header .background-text div {
+          font-family: "Knockout 48 A", "Knockout 48 B";
+          font-size: 17vw;
+          color: #fff;
+          font-style: normal;
+          font-weight: 100;
+          line-height: 8vw; }
+      #page7 .content .body_text {
+        font-family: "ProximaNova-Regular", "proxima-nova", "arial", "Helvetica";
+        font-size: 18px;
+        color: #4d4d4f;
+        font-style: normal;
+        font-weight: 100; }
+        #page7 .content .body_text p {
+          line-height: 20px; }
+        #page7 .content .body_text .address {
+          text-decoration: underline; } }
+
+@media only screen and (min-width: 768px) and (max-width: 1399px) {
+  header .heroText {
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate3d(-50%, -50%, 0); }
+    header .heroText img {
+      max-width: 100vw; }
+  #page2 .page2_header {
+    text-transform: uppercase;
+    width: 95%;
+    margin-left: 10px; }
+    #page2 .page2_header .background-text div {
+      font-family: "Knockout 48 A", "Knockout 48 B";
+      font-size: 111px;
+      color: #2b8558;
+      font-style: normal;
+      font-weight: 100;
+      display: table;
+      line-height: .6;
+      margin: 4px 0;
+      padding: 0 4px 4px;
+      white-space: nowrap;
+      margin: 0; }
+  #page2 .page2_text {
+    padding-top: 20px;
+    line-height: 30px; }
+    #page2 .page2_text p {
+      font-family: "ProximaNova-Regular", "proxima-nova", "arial", "Helvetica";
+      font-size: 20px;
+      color: #4c4c4c;
+      font-style: normal;
+      font-weight: 100; }
+  #page2 .hc_icon {
+    text-align: center;
+    top: -280px; }
+  #page3 {
+    height: 440px;
+    padding: 100px 0px 100px 0; }
+    #page3 .content .quote_ctner {
+      width: 100%;
+      height: 0;
+      padding: 0px;
+      margin-top: 0px; }
+      #page3 .content .quote_ctner .copy1 h1 {
+        font-family: "ProximaNova-Bold", "proxima-nova", "Helvetica Neue";
+        font-size: 60px;
+        color: white;
+        font-style: normal;
+        font-weight: 100;
+        display: inline;
+        background: transparent;
+        padding: 0px; } }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  header .heroText {
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate3d(-50%, -50%, 0); }
+    header .heroText img {
+      max-width: 90vw; }
+  #page2 .page2_header {
+    width: 90%; }
+  #page2 .page2_text {
+    padding-top: 20px;
+    line-height: 30px; }
+    #page2 .page2_text p {
+      font-family: "ProximaNova-Regular", "proxima-nova", "arial", "Helvetica";
+      font-size: 20px;
+      color: #4c4c4c;
+      font-style: normal;
+      font-weight: 100; }
+  #page2 .hc_icon {
+    top: -100px;
+    width: 50% !important;
+    text-align: left; }
+    #page2 .hc_icon img {
+      width: 100%; }
+  #page2 .video_ctner {
+    margin-top: 100px;
+    margin-bottom: 100px; }
+  #page3 {
+    padding: 100px 0px 100px 0;
+    height: 400px; }
+    #page3 .content .quote_ctner {
+      width: 100%;
+      height: 0;
+      padding: 0px;
+      margin-top: 0; }
+      #page3 .content .quote_ctner .copy1 h1 {
+        font-family: "ProximaNova-Bold", "proxima-nova", "Helvetica Neue";
+        font-size: 50px;
+        color: white;
+        font-style: normal;
+        font-weight: 100;
+        display: inline;
+        background: transparent;
+        padding: 0px; } }
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  header .heroText {
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate3d(-50%, -50%, 0); }
+    header .heroText img {
+      max-width: 100vw; }
+  #page2 .hc_icon {
+    top: -260px; }
+  #page3 {
+    padding: 100px 0px 100px 0;
+    height: 440px; }
+    #page3 .content .quote_ctner {
+      width: 100%;
+      height: 0;
+      padding: 0;
+      margin-top: 0; }
+      #page3 .content .quote_ctner .copy1 h1 {
+        font-family: "ProximaNova-Bold", "proxima-nova", "Helvetica Neue";
+        font-size: 60px;
+        color: white;
+        font-style: normal;
+        font-weight: 100;
+        display: inline;
+        background: transparent;
+        padding: 0px; } }
+
+@media only screen and (min-height: 1px) and (max-height: 567px) {
+  header .jack {
+    background: url("../images/page1_bg_desktop.jpg");
+    background-position: center 90%;
+    background-size: cover;
+    background-attachment: scroll;
+    position: relative; } }
